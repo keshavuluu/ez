@@ -49,19 +49,15 @@ export default function Contact(){
 
   return (
     <section className="relative min-h-screen py-16 md:py-20 overflow-hidden">
-      {/* Corner decorations behind content */}
       <img src={decorTR} alt="decor top right" className="pointer-events-none select-none hidden md:block absolute right-0 top-0 w-72 opacity-80 -z-10" />
       <img src={decorBL} alt="decor bottom left" className="pointer-events-none select-none hidden md:block absolute left-0 bottom-0 w-72 opacity-80 -z-10" />
-
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
-          {/* Left: message image with subtle frame */}
           <div className="relative">
             <img src={frame} alt="frame" className="hidden md:block absolute -left-6 top-8 w-12 opacity-60" />
             <img src={noteImg} alt="contact intro" className="relative w-full max-w-md object-contain" />
           </div>
 
-          {/* Right: form */}
           <div>
             <h1 className="text-center md:text-left text-3xl font-serif text-slate-700">Join the Story</h1>
             <p className="mt-2 text-center md:text-left text-slate-600">Ready to bring your vision to life? Let's talk.</p>

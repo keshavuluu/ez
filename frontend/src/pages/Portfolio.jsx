@@ -11,7 +11,7 @@ export default function Portfolio(){
         <h1 className="text-center font-serif text-3xl md:text-4xl text-slate-800">The Highlight Reel</h1>
         <p className="mt-2 text-center text-slate-600">Watch the magic we’ve captured.</p>
 
-        {/* Centered trio: left Cam Group, middle Group 11, right Footer Vector */}
+      
         <div className="mt-10 flex items-center justify-center gap-6">
           <img src={camGroup} alt="Camera Group" className="h-44 md:h-56 object-contain" />
           <img src={swirlDecor} alt="Group 11" className="h-56 md:h-64 object-contain" />

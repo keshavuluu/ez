@@ -8,7 +8,7 @@ export default function HeaderBar(){
         <Link to="/" className="text-slate-800 font-semibold tracking-wide">
           V Films
         </Link>
-        {/* Right side left empty because the menu button is provided by TopQuickNav */}
+    
         <span className="inline-block w-5 h-5" />
       </div>
     </div>

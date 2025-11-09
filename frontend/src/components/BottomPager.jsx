@@ -21,7 +21,7 @@ export default function BottomPager(){
 
   const onClick = () => navigate(nextPath);
 
-  // drag handling
+
   const startRef = React.useRef(null);
   const draggedRef = React.useRef(false);
   const handleDown = (e)=>{
